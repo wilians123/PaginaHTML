@@ -1,0 +1,59 @@
+body {
+  background-image: url("fondo.png");
+  font-family: Arial, sans-serif; 
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
+  height: 100vh; 
+}
+
+.titulo {
+  color: #002fff; 
+  margin-top: -290px;
+}
+
+.formulario {
+  width: 300px; 
+  padding: 20px; 
+  border: 1px solid #cccccc; 
+  border-radius: 10px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff; 
+}
+
+
+.campo {
+  margin-bottom: 10px;
+}
+
+.etiqueta {
+  display: block; 
+  margin-bottom: 5px; 
+}
+
+.entrada {
+  display: block; 
+  width: 100%; 
+  padding: 10px; 
+  border: 1px solid #cccccc; 
+  border-radius: 5px; 
+  outline: none; 
+}
+
+.boton {
+  display: block; 
+  width: 100%; 
+  padding: 10px; 
+  border: none; 
+  border-radius: 5px; 
+  background-color: #007bff; 
+  color: #ffffff; 
+  font-weight: bold; 
+  cursor: pointer;
+}
+
+.mensaje {
+  color: #ff0000; 
+  text-align: center; 
+  margin-top: 10px; 
+}
